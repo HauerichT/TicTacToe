@@ -9,13 +9,19 @@ public class Main {
         tictactoe.macheZug(2,2);
         tictactoe.zeigeSpielfeld();
 
-        tictactoe.macheZug(2,2);
+        tictactoe.macheZug(2,1);
         tictactoe.zeigeSpielfeld();
 
         tictactoe.macheZug(2,0);
         tictactoe.zeigeSpielfeld();
 
-        tictactoe.macheZug(1,0);
+        tictactoe.macheZug(1,2);
+        tictactoe.zeigeSpielfeld();
+
+        tictactoe.macheZug(1,1);
+        tictactoe.zeigeSpielfeld();
+
+        tictactoe.macheZug(1,1);
         tictactoe.zeigeSpielfeld();
     }
 }
