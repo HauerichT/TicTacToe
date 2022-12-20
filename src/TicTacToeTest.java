@@ -1,7 +1,10 @@
-public class Main {
+public class TicTacToeTest {
     public static void main(String[] args) {
 
         TicTacToe tictactoe = new TicTacToe();
+
+        tictactoe.zeigeSpielfeld();
+
 
         tictactoe.macheZug(0,0);
         tictactoe.zeigeSpielfeld();
